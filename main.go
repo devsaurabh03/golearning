@@ -5,6 +5,7 @@ import (
 	"unicode/utf8"
 
 	golearningday2 "github.com/golearning/snow/golearning-day2"
+	golearningday3 "github.com/golearning/snow/golearning-day3"
 )
 
 func main() {
@@ -17,6 +18,10 @@ func main() {
 
 	fmt.Println(golearningday2.GetOsArgsInfo())
 
+	var temp []string = golearningday2.GetOsArgsInfo()
+
+	fmt.Println(temp[1])
+
 	s := "hello world"
 
 	s1 := `hello world
@@ -28,5 +33,7 @@ func main() {
 	fmt.Println(s1)
 
 	fmt.Println(utf8.RuneCountInString(s))
+
+	golearningday3.PrintIOTAExamples()
 
 }
