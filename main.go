@@ -36,7 +36,14 @@ func main() {
 
 	//fmt.Println(golearningday4.PasswordChecker())
 
-	fmt.Println(strconv.ParseBool(os.Args[1]))
+	//fmt.Println(strconv.ParseBool(os.Args[1]))
+
+	_, myerr := strconv.ParseInt(os.Args[1], 2, 64)
+
+	if myerr != nil {
+
+		fmt.Println("something error has occured")
+	}
 
 	/*fmt.Println("printing bool value", myvalue)
 	fmt.Println("printing err value", myerror)*/
