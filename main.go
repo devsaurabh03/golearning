@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-
-	golearningday4 "github.com/golearning/snow/golearning-day4"
+	"os"
+	"strconv"
 )
 
 func main() {
@@ -34,7 +34,11 @@ func main() {
 
 	golearningday3.PrintIOTAExamples()*/
 
-	fmt.Println(golearningday4.PasswordChecker())
+	//fmt.Println(golearningday4.PasswordChecker())
 
-	//comment
+	fmt.Println(strconv.ParseBool(os.Args[1]))
+
+	/*fmt.Println("printing bool value", myvalue)
+	fmt.Println("printing err value", myerror)*/
+
 }
