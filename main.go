@@ -2,10 +2,8 @@ package main
 
 import (
 	"fmt"
-	"unicode/utf8"
 
-	golearningday2 "github.com/golearning/snow/golearning-day2"
-	golearningday3 "github.com/golearning/snow/golearning-day3"
+	golearningday4 "github.com/golearning/snow/golearning-day4"
 )
 
 func main() {
@@ -16,7 +14,7 @@ func main() {
 	//fmt.Println(dir)
 	//fmt.Println(path)
 
-	fmt.Println(golearningday2.GetOsArgsInfo())
+	/*fmt.Println(golearningday2.GetOsArgsInfo())
 
 	var temp []string = golearningday2.GetOsArgsInfo()
 
@@ -25,7 +23,7 @@ func main() {
 	s := "hello world"
 
 	s1 := `hello world
-	
+
 	`
 
 	fmt.Println(s)
@@ -34,6 +32,8 @@ func main() {
 
 	fmt.Println(utf8.RuneCountInString(s))
 
-	golearningday3.PrintIOTAExamples()
+	golearningday3.PrintIOTAExamples()*/
+
+	fmt.Println(golearningday4.PasswordChecker())
 
 }
