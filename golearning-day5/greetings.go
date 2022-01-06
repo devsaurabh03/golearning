@@ -9,7 +9,7 @@ func Greetfortheday() {
 
 	hour := time.Now().Hour()
 
-	fmt.Print(hour)
+	//fmt.Print(hour)
 
 	switch {
 	case hour > 12 && hour < 6:
