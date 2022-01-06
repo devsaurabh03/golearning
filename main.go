@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"os"
-	"strconv"
+
+	golearningday5 "github.com/golearning/snow/golearning-day5"
 )
 
 func main() {
@@ -38,14 +38,16 @@ func main() {
 
 	//fmt.Println(strconv.ParseBool(os.Args[1]))
 
-	_, myerr := strconv.ParseInt(os.Args[1], 2, 64)
+	/*_, myerr := strconv.ParseInt(os.Args[1], 2, 64)
 
 	if myerr != nil {
 
 		fmt.Println("something error has occured")
 	}
 
-	/*fmt.Println("printing bool value", myvalue)
+	fmt.Println("printing bool value", myvalue)
 	fmt.Println("printing err value", myerror)*/
+
+	fmt.Println(golearningday5.Greetfortheday())
 
 }
