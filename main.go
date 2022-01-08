@@ -1,8 +1,6 @@
 package main
 
-import (
-	golearningday5 "github.com/golearning/snow/golearning-day5"
-)
+import golearningday6 "github.com/golearning/snow/golearning-day6"
 
 func main() {
 
@@ -44,8 +42,10 @@ func main() {
 	}
 
 	fmt.Println("printing bool value", myvalue)
-	fmt.Println("printing err value", myerror)*/
+	fmt.Println("printing err value", myerror)
 
-	golearningday5.Greetfortheday()
+	golearningday5.Greetfortheday()*/
+
+	golearningday6.LoopPrograms()
 
 }
