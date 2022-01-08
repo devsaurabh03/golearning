@@ -1,6 +1,10 @@
 package main
 
-import golearningday6 "github.com/golearning/snow/golearning-day6"
+import (
+	"strings"
+
+	golearningday6 "github.com/golearning/snow/golearning-day6"
+)
 
 func main() {
 
@@ -47,5 +51,9 @@ func main() {
 	golearningday5.Greetfortheday()*/
 
 	golearningday6.LoopPrograms()
+
+	words := strings.Split("hello there how are you ?", " ")
+
+	golearningday6.RangeLoops(words)
 
 }
